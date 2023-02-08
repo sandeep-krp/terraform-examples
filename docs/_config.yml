@@ -228,6 +228,11 @@ whitelist:
   - jekyll-include-cache
 
 
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -278,3 +283,15 @@ defaults:
       comments: true
       share: true
       related: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"

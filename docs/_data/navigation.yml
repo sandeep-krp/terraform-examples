@@ -1,12 +1,7 @@
-# main links
-foo:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+docs:
+  - title: Getting Started
+    children:
+      - title: "Why Terraform"
+        url: /docs/why-terraform/
+      - title: "Install Terraform"
+        url: /docs/installing-terraform/

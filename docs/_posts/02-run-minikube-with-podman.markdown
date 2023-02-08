@@ -1,8 +1,12 @@
 ---
 title:  "Experiment with Kubernetes on your local machine(Mac)"
-date:   2023-01-29 18:00:00 +0530
-categories: tech kubernetes minikube podman
+permalink: /posts/install-kubernetes-locally/
+excerpt: "How to setup kubernetes using minikube locally"
+last_modified_at: 2023-02-07T08:48:05-04:00
+toc: true
 ---
+
+Having a kubernetes server running locally is always a good idea if you are afraid of doing something nasty on your Organization's Kubernetes server. It is a safe place to do all kinds of experiments. It could be learning the basics, deploying some apps for your use locally, or to use terraform with Kubernetes.
 
 ## TL;DR
 - `brew install minikube@v1.29.0`
