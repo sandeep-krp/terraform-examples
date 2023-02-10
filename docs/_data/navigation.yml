@@ -5,3 +5,5 @@ docs:
         url: /docs/why-terraform/
       - title: "Install Terraform"
         url: /docs/installing-terraform/
+      - title: "Environment Setup"
+        url: /docs/environment-setup/
