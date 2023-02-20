@@ -30,7 +30,7 @@ In the above code, we are defining a resource of type `aws_subnet` with a name `
 {: .notice--info}
 
 ## Terraform apply to create Subnet
-If you have done the changes correctly, now your code should look like [this].
+If you have done the changes correctly, now your code should look like [this](https://github.com/sandeep-krp/terraform-examples/blob/f66f0b0dce5c2670e6b48650866214038bcb51c9/basic/main.tf).
 If it does, you are ready to *apply* the changes.
 ```shell
 terraform apply
