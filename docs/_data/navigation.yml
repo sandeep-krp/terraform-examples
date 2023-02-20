@@ -12,3 +12,5 @@ docs:
         url: /docs/environment-setup/
       - title: "First Terraform Code"
         url: /docs/first-terraform-code/
+      - title: "Terraform resource references"
+        url: /docs/reference-resource-outputs/
