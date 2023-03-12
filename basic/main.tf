@@ -10,3 +10,11 @@ resource "aws_subnet" "tf_subnet" {
     Name = "My Subnet"
   }
 }
+
+terraform {
+  backend "s3" {
+    bucket = "shyer-lexical-infra"
+    key    = "tf-states/terraform-examples/basics"
+    region = "us-east-1"
+  }
+}

@@ -14,3 +14,5 @@ docs:
         url: /docs/first-terraform-code/
       - title: "Terraform resource references"
         url: /docs/reference-resource-outputs/
+      - title: "Terraform state file"
+        url: /docs/terraform-state-file/
