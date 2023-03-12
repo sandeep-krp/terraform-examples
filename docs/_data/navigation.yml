@@ -16,3 +16,5 @@ docs:
         url: /docs/reference-resource-outputs/
       - title: "Terraform state file"
         url: /docs/terraform-state-file/
+      - title: "Terraform plan"
+        url: /docs/terraform-plan/
