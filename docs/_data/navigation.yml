@@ -18,3 +18,7 @@ docs:
         url: /docs/terraform-state-file/
       - title: "Terraform plan"
         url: /docs/terraform-plan/
+      - title: "Terraform destroy"
+        url: /docs/terraform-destroy/
+      - title: "Creating a complete environment"
+        url: /docs/terraform-full-stack/
