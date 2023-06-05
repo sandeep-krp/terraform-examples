@@ -1,0 +1,3 @@
+bucket = "shyer-lexical-infra"
+key    = "tf-states/terraform-examples/basics/testing"
+region = "us-east-1"

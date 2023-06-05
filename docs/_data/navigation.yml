@@ -22,3 +22,5 @@ docs:
         url: /docs/terraform-destroy/
       - title: "Creating a complete environment"
         url: /docs/terraform-full-stack/
+      - title: "Terraform modules"
+        url: /docs/terraform-modules/
