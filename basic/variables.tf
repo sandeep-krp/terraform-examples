@@ -25,3 +25,8 @@ variable "database_password" {
 variable "database_username" {
   
 }
+
+variable "storage_enabled" {
+  type = bool
+  default = false
+}

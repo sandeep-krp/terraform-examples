@@ -24,3 +24,5 @@ docs:
         url: /docs/terraform-full-stack/
       - title: "Terraform modules"
         url: /docs/terraform-modules/
+      - title: "Terraform submodules"
+        url: /docs/terraform-submodules/
