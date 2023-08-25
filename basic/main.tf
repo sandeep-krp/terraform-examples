@@ -7,15 +7,16 @@ module "network" {
 }
 
 module "storage" {
-  count = var.storage_enabled ? 1 : 0
-  source = "./storage"
-  unique_id = var.unique_id
-  database_name = var.database_name
-  database_password = var.database_password
-  database_username = var.database_username
-  vpc_id = module.network.vpc_id
-  sg_allowed_cidr = [var.vpc_cidr]
-  subnet_group_ids = module.network.subnet_ids
+  source = "terraform-aws-modules/rds/aws"
+  identifier = "${var.unique_id}-db"
+  engine = "postgres"
+  family = "postgres15"
+  db_name = var.database_username
+  username = var.database_username
+  create_db_subnet_group = true
+  subnet_ids             = module.network.subnet_ids
+  instance_class = "db.t3.micro"
+  allocated_storage = "5"
 }
 
 terraform {

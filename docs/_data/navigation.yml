@@ -26,3 +26,5 @@ docs:
         url: /docs/terraform-modules/
       - title: "Terraform submodules"
         url: /docs/terraform-submodules/
+      - title: "Using open-source modules"
+        url: /docs/using-open-source-modules/
