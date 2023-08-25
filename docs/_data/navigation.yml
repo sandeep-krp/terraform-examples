@@ -28,3 +28,5 @@ docs:
         url: /docs/terraform-submodules/
       - title: "Using open-source modules"
         url: /docs/using-open-source-modules/
+      - title: "Adding your modules to git"
+        url: /docs/adding-modules-to-git/
