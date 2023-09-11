@@ -57,8 +57,8 @@ Unable to locate credentials. You can configure credentials by running "aws conf
 Make sure you have a file `~/.aws/credentials` that has credentials you just entered. If it looks incorrect, you can edit this manually put information correctly. The file should look something like this:
 ```
 [myuser]
-aws_access_key_id = AGSGYGHYJKDGEESWFG
-aws_secret_access_key = pw7ptGbClwLP/4Ko8Iyl/g2tVi89bvWCQNOKROPR
+aws_access_key_id = AGSG*******SWFG
+aws_secret_access_key = pw7***************************PR
 ```
 if you forgot to use `--profile myuser` while running `aws configure`, in the file you would see `[default]` instead of [myuser]. If you did use `--profile`, then do run `export AWS_PROFILE=myuser` before running `aws sts get-caller-identity`. The terraform also looks for the `AWS_PROFILE` environment variable to access AWS services. 
 
